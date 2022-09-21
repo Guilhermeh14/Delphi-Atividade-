@@ -1,0 +1,69 @@
+unit untnumeros;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Tfrmnumeros = class(TForm)
+    btnnumero: TButton;
+    memres: TMemo;
+    btnexibir: TButton;
+    procedure btnnumeroClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure btnexibirClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmnumeros: Tfrmnumeros;
+  cont: integer;
+  numero: array [1..10] of integer;
+  i :integer;
+implementation
+
+{$R *.dfm}
+
+procedure Tfrmnumeros.btnexibirClick(Sender: TObject);
+begin
+  memres.clear;
+  for cont := 1 to 10 do
+    begin
+        memres.Lines.Add('Numero :' + IntToStr (numero[cont]));
+    end;
+end;
+
+procedure Tfrmnumeros.btnnumeroClick(Sender: TObject);
+var id : string;
+var media : integer;
+
+begin
+  for cont := 1 to 10 do
+    begin
+      id :='';
+      InputQuery('numero','Digite um Numero',id);
+      numero[cont]:= StrToInt(id);
+  end;
+
+  for i := 1 to 10 do
+  begin
+    if numero[i] >  then
+
+  end;
+
+
+
+
+end;
+
+procedure Tfrmnumeros.FormCreate(Sender: TObject);
+begin
+cont:=1;
+end;
+
+end.

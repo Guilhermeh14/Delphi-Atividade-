@@ -1,0 +1,16 @@
+program PrjAtividades;
+
+uses
+  Vcl.Forms,
+  untprincipal in 'untprincipal.pas' {frmAtividades},
+  untmedia in 'untmedia.pas' {frmMedia};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmAtividades, frmAtividades);
+  Application.CreateForm(TfrmMedia, frmMedia);
+  Application.Run;
+end.

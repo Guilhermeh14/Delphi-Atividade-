@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/16 15:50:30.000.298,=C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/16 15:54:49.000.548,=C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/16 16:07:06.000.018,C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\untmedia.dfm</Transaction>
+    <Transaction>2022/09/16 16:07:06.000.018,C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\guilh\Desktop\Atividade\Atividade\untmedia.pas</Transaction>
+    <Transaction>2022/09/16 16:07:17.000.989,C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\guilh\Desktop\Atividade\Atividade\untprincipal.pas</Transaction>
+    <Transaction>2022/09/16 16:07:17.000.989,C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\untprincipal.dfm</Transaction>
+    <Transaction>2022/09/16 16:07:23.000.317,C:\Users\guilh\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\guilh\Desktop\Atividade\Atividade\PrjAtividades.dproj</Transaction>
+    <Transaction>2022/09/16 16:24:42.000.891,=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/16 16:24:55.000.022,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas=C:\Users\guilh\Desktop\Atividade\Atividade\untFibonacci.pas</Transaction>
+    <Transaction>2022/09/16 16:24:55.000.022,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\untFibonacci.dfm</Transaction>
+    <Transaction>2022/09/16 16:45:05.000.026,=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/16 16:45:18.000.921,C:\Users\guilh\Desktop\Atividade\Atividade\untoperacoes.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.dfm</Transaction>
+    <Transaction>2022/09/16 16:45:18.000.921,C:\Users\guilh\Desktop\Atividade\Atividade\untoperacoes.pas=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/17 16:42:17.000.828,=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/17 16:42:28.000.059,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas=C:\Users\guilh\Desktop\Atividade\Atividade\untmes.pas</Transaction>
+    <Transaction>2022/09/17 16:42:28.000.059,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\untmes.dfm</Transaction>
+    <Transaction>2022/09/17 19:47:46.000.213,=C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/17 19:51:14.000.031,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.pas=C:\Users\guilh\Desktop\Atividade\Atividade\untnumeros.pas</Transaction>
+    <Transaction>2022/09/17 19:51:14.000.031,C:\Users\guilh\Desktop\Atividade\Atividade\Unit1.dfm=C:\Users\guilh\Desktop\Atividade\Atividade\untnumeros.dfm</Transaction>
+    <Transaction>2022/09/20 19:25:20.000.291,=C:\Users\etec\Desktop\Atividade\Atividade\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 19:25:34.000.945,C:\Users\etec\Desktop\Atividade\Atividade\Unit1.pas=C:\Users\etec\Desktop\Atividade\Atividade\untnumaula.pas</Transaction>
+    <Transaction>2022/09/20 19:25:34.000.945,C:\Users\etec\Desktop\Atividade\Atividade\Unit1.dfm=C:\Users\etec\Desktop\Atividade\Atividade\untnumaula.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

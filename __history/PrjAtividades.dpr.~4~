@@ -1,0 +1,20 @@
+program PrjAtividades;
+
+uses
+  Vcl.Forms,
+  untprincipal in 'untprincipal.pas' {frmAtividades},
+  untmedia in 'untmedia.pas' {frmMedia},
+  untFibonacci in 'untFibonacci.pas' {frmFibonacci},
+  untoperacoes in 'untoperacoes.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmAtividades, frmAtividades);
+  Application.CreateForm(TfrmMedia, frmMedia);
+  Application.CreateForm(TfrmFibonacci, frmFibonacci);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

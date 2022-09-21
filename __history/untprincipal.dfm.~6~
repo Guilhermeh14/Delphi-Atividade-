@@ -1,0 +1,129 @@
+object frmAtividades: TfrmAtividades
+  Left = 0
+  Top = 0
+  Caption = 'Atividades Delphi'
+  ClientHeight = 775
+  ClientWidth = 1221
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 712
+    Top = 256
+    Width = 458
+    Height = 73
+    Caption = 'Exercicios Delphi'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -64
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btnmedia: TButton
+    Left = 584
+    Top = 408
+    Width = 177
+    Height = 65
+    Caption = 'M'#233'dia'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnmediaClick
+  end
+  object Button1: TButton
+    Left = 832
+    Top = 408
+    Width = 177
+    Height = 65
+    Caption = 'Fibonacci'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 1080
+    Top = 408
+    Width = 177
+    Height = 65
+    Caption = 'Opera'#231#245'es'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 696
+    Top = 552
+    Width = 177
+    Height = 65
+    Caption = 'Button3'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 992
+    Top = 552
+    Width = 177
+    Height = 65
+    Caption = 'Button4'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 756
+    Width = 1221
+    Height = 19
+    Panels = <
+      item
+        Width = 200
+      end
+      item
+        Width = 50
+      end
+      item
+        Alignment = taRightJustify
+        Width = 50
+      end>
+    ExplicitLeft = 488
+    ExplicitTop = 600
+    ExplicitWidth = 0
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 160
+    Top = 712
+  end
+end
